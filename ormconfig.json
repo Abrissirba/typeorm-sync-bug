@@ -1,0 +1,26 @@
+{
+    "type": "mssql",
+    "host": "MARCUS",
+    "username": "ClassQAdmin",
+    "password": "Winter2018!",
+    "database": "ClassQ-e2e",
+    "synchronize": true,
+    "logging": ["error"],
+    "options": {
+         "encrypt": true
+    },
+    "entities": [
+       "db/entity/**/*.ts"
+    ],
+    "migrations": [
+       "db/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "db/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "db/entity",
+       "migrationsDir": "db/migration",
+       "subscribersDir": "db/subscriber"
+    }
+ }
