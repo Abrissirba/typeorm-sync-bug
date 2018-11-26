@@ -1,9 +1,9 @@
 {
     "type": "mssql",
-    "host": "MARCUS",
-    "username": "ClassQAdmin",
-    "password": "Winter2018!",
-    "database": "ClassQ-e2e",
+    "host": "HOST",
+    "username": "USERNAME",
+    "password": "PASSOWORD",
+    "database": "DATABASE",
     "synchronize": true,
     "logging": ["error"],
     "options": {
